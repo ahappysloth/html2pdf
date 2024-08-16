@@ -89,7 +89,8 @@ window.function = function (html, fileName, format, zoom, orientation, margin, b
 	}
   
 	button#download {
-	  position: fixed;
+	  position: sticky;
+          z-index: 10;
 	  border-radius: 0.5rem;
 	  font-size: 14px;
 	  font-weight: 600;
