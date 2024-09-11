@@ -134,6 +134,7 @@ window.function = function (html, fileName, format, zoom, orientation, margin, b
 	// HTML THAT IS RETURNED AS A RENDERABLE URL
 	const originalHTML = `
 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+          <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 	  <style>${customCSS}</style>
 	  <div class="main">
 	  <div class="header">
